@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
-import './nav.css'
 import { ABOUT_ROUTE, FINDER_ROUTE, HOME_ROUTE } from '../content-mgt/Landing'
+import './nav.scss'
 const Nav = () => {
     const navigator = useNavigate();
 
