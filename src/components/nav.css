@@ -1,0 +1,17 @@
+.nav {
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 4px rgba(14,61,183,.15);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.nav ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul li {
+    list-style-type: none;
+    cursor: pointer;
+}
