@@ -4,11 +4,24 @@
     padding: .5rem;
 
     @media (max-width: 600px) {
+        overflow-x: hidden;
+    }
+
+    .rectangle-logo {
+        @media (max-width: 600px) {
+            max-width: 100%;
+        }
+    }
+
+    @media (max-width: 600px) {
         flex-direction: column;
     }
 
     .input-section {
         // width: 40%;
+        @media (max-width: 600px) {
+            max-width: 100%;
+        }
         h3 {
             padding-top: 3rem;
         }
