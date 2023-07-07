@@ -4,7 +4,6 @@ const About = () => {
     return (
         <div>
             <Nav />
-            <p>About Page</p>
         </div>
     )
 }

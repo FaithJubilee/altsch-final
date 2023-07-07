@@ -4,7 +4,6 @@ const Finder = () => {
     return (
         <div>
             <Nav />
-            <p>welcome to finder</p>
         </div>
     )
 }
