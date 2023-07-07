@@ -3,6 +3,10 @@
     justify-content: space-between;
     padding: .5rem;
 
+    @media (max-width: 600px) {
+        flex-direction: column;
+    }
+
     .input-section {
         // width: 40%;
         h3 {
@@ -24,6 +28,10 @@
             width: 50%;
             text-align: center;
             margin: 2rem auto;
+
+            @media (max-width: 600px) {
+                width: 100%;
+            }
 
             span {
                 color: #08299b;
